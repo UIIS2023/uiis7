@@ -1,0 +1,208 @@
+body   {
+    background-color:rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+header
+{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+    
+}
+
+h1{
+    background-color: rgb(224,34,34);
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    margin: 0px;
+}
+
+nav{
+    background-color: rgb(182, 171, 171);
+    font-size: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.navbar a{
+    opacity: .5;
+    position: relative;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(169, 28, 28);
+    font-weight: 400;
+}
+
+.navbar a::before{
+    content: ' ';
+    position: absolute;
+    top: 100%;
+    width: 0;
+    height: 1px;
+    background-color: rgb(169, 28, 28);
+    transition: .2s;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+
+
+.pozicija
+{
+    background-color: white;
+    width: fit-content;
+    padding: 5px;
+    height: auto;
+    color: white;
+    font-size: 23px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgb(143, 44, 44);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+
+}
+p{
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+.opis
+{
+    
+    background-color: white;
+    width: auto;
+    padding: 20px;
+    height: auto;
+    color: white;
+    font-size: 23px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.slika
+{
+    object-fit: cover;
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgb(88, 86, 86);
+}
+
+
+.text
+{
+    border: 1px white solid;
+    height: auto;
+    width:50%;
+    box-shadow: 0px 8px 16px 0px rgb(88, 86, 86);
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.text2
+{
+    border-bottom: 1px white;
+    
+    width:auto;
+    height: auto;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    
+
+}
+.text_levo
+{
+    border: 1px white solid;
+    
+    width: 50%;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgb(88, 86, 86);
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.odabir
+{
+    background-color: rgb(224,34,34);
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    
+
+}
+
+
+.pitanje
+{
+    background-color: white;
+    width: fit-content;
+    padding: 5px;
+    height: auto;
+    color: white;
+    font-size: 23px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgb(132, 110, 110);
+    margin: auto;
+    color: rgb(224,34,34);
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+.prozor
+{
+    
+    height: auto;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgb(82, 81, 81);
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.stavka
+{
+    font-weight: bold;
+    color: rgb(224,34,34);
+    
+}
+
+.kolona
+{
+    
+   padding: 3px;
+ 
+}
+.galerija
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+    
+}
+.slika_galreija
+{
+    width: 350px;
+    height: 200px;
+     object-fit: cover;
+     display: block;
+}

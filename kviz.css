@@ -1,0 +1,149 @@
+body{
+    background-color:  rgb(243, 44, 44);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header
+{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+    
+}
+.h1
+{
+    background-color: rgb(224,34,34);
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    margin: 0px;
+}
+
+
+nav{
+    background-color: rgb(182, 171, 171);
+    font-size: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.navbar a{
+    opacity: .5;
+    position: relative;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(169, 28, 28);
+    font-weight: 400;
+}
+
+.navbar a::before{
+    content: ' ';
+    position: absolute;
+    top: 100%;
+    width: 0;
+    height: 1px;
+    background-color: rgb(169, 28, 28);
+    transition: .2s;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+
+
+
+
+.prozor
+{
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 30px;
+   
+    
+}
+
+
+
+
+
+
+
+h1{
+margin: 0;
+padding-bottom: 5px;
+border-bottom: 1px solid;
+font-size: 45px;
+font-weight: 700;
+
+}
+.pitanje{
+    font-size: 22px;
+    font-weight: bold;
+}
+.dugme
+{
+    border: 1px solid black;
+    width: 100%;
+    text-align: left;
+    background-color: white;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight:600;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 7px;
+
+}
+.dugme:hover:not([disabled])
+{
+    background-color: black;
+    color: white;
+    transition-duration: .2s;
+    transform: scale(1.01);
+    border: white;
+}
+.next-dugme
+{
+    margin: auto;
+    width: 130px;
+    height: 45px;
+    font-size: 17px;
+    background-color: rgb(243, 44, 44);
+    border-radius: 10px;
+    border: white;
+    color: white;
+    text-align: center;
+    
+    box-shadow: 2px 2px 5px black;
+    display: none;
+}
+.next-dugme:hover
+{
+    
+    background-color: black;
+   transform: scale(1.1);
+   transition-duration: 0.3s;
+   
+}
+
+.tacno
+{
+    background-color: rgb(56, 201, 56);
+}
+.netacno
+{
+    background-color: rgb(244, 34, 34);
+}
